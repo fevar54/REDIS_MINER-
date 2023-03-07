@@ -1,7 +1,7 @@
 rule redis_miner {
     meta:
         description = "Detects Redis Miner malware"
-        author = "Your Name"
+        author = "FEVAR54"
     strings:
         $str1 = "REDIS_MINER" nocase
         $str2 = "lua"
